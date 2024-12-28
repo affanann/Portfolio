@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../assets/profile.png";
+import Profile from "../assets/Profile.png";
 import CV from "../assets/CV_Affan_Madley.pdf";
 import { Download } from "lucide-react";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
