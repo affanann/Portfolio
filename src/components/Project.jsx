@@ -25,7 +25,7 @@ const Project = () => {
       description:"A dynamic CRUD (Create, Read, Update, Delete) application built with Laravel and Bootstrap. It manages student data efficiently with features for adding, editing, searching, and deleting, all through a clean and intuitive interface.",
       tools: ["Laravel", "Bootstrap", "PHP", "mySQL"],
       image: Image3,
-      githublink: "https://github.com/affanann/ProjectCRUD",
+      githublink: "https://github.com/affanann/Student-Data-Management",
     },
   ];
 
