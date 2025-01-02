@@ -11,7 +11,7 @@ const Project = () => {
       description: "A responsive portfolio website built with React and animation libraries like Framer Motion. This project highlights skills in modern web development, including TailwindCSS and Vite, to create a smooth and engaging user experience.",
       tools: [ "React JS","TailwindCSS", "FramerMotion" ],
       image: Image1,
-      githublink: "https://github.com/affanann/PortfolioReact",
+      githublink: "https://github.com/affanann/Portfolio",
     },
     {
       title: "Simple Calculator",
