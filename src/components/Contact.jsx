@@ -39,15 +39,18 @@ const Contact = () => {
                 Follow Me
               </h3>
               <div className="flex gap-3 text-2xl transition-all mt-5">
-                  {/* LinkedIn */}
-                  <a href="https://linkedin.com/in/affanmadley" target="_blank">
-                  <FaLinkedin className="text-blue-400"/></a>
-                  {/* Github */}
-                  <a href="https://github.com/affanann" target="_blank">
-                  <FaGithub className="text-blue-400"/></a>
-                  {/* Instagram */}
-                  <a href="https://instagram.com/affanmadley" target="_blank">
-                  <FaInstagram className="text-blue-400"/></a>
+                 {/* LinkedIn */}
+                <div onClick={() => window.open('https://linkedin.com/in/affanmadley', '_blank')} style={{ cursor: 'pointer' }}>
+                  <FaLinkedin className="text-blue-400" />
+                </div>
+                {/* Github */}
+                <div onClick={() => window.open('https://github.com/affanann', '_blank')} style={{ cursor: 'pointer' }}>
+                  <FaGithub className="text-blue-400" />
+                </div>
+                {/* Instagram */}
+                <div onClick={() => window.open('https://instagram.com/affanmadley', '_blank')} style={{ cursor: 'pointer' }}>
+                  <FaInstagram className="text-blue-400" />
+                </div>
               </div>
             </div>
           </div>
