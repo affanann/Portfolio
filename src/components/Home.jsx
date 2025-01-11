@@ -78,13 +78,14 @@ const Home = () => {
             alt="profile picture"
             useMap="#profileMap"
             className="rounded-full border border-blue-600 md:w-[500px] w-[300px] shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500"/>
-          <map name="profileMap">
-            </area 
-              shape="circle"
-              coords="250,250,50"
-              href="/"
-              alt="" > 
-          </map>
+            <map name="profileMap">
+              <area 
+                shape="circle"
+                coords="250,250,50"
+                href="/"
+                alt=""
+              /> 
+            </map>
         </div>
       </div>
     </section>
