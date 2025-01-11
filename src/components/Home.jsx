@@ -75,8 +75,16 @@ const Home = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.4, delay: 0 }}
             src={Profile}
-            alt=""
+            alt="profile picture"
+            useMap="#profileMap"
             className="rounded-full border border-blue-600 md:w-[500px] w-[300px] shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500"/>
+          <map name="profileMap">
+            </area 
+              shape="circle"
+              coords="250,250,50"
+              href="/"
+              alt="" > 
+          </map>
         </div>
       </div>
     </section>
